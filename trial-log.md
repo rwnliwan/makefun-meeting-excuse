@@ -59,4 +59,4 @@ Checks run:
 
 | v | change | bundle (B / sha256) | check | notes |
 |---|--------|---------------------|-------|-------|
-| v1 | initial build: main.ts + README (3 live badges) + LICENSE + owner.json + this log | — | — | preflight: node runs main.ts, entry.txt 84 chars, 0 static-badge-host strings in repo |
+| v1 | initial build: main.ts + README (3 live badges) + LICENSE + owner.json + this log | bundle v1 171.850 B, sha256 `33ecdfbd302fd50165ec782bbc44e16eba467548b654056c70571ac6b61a2815` | check v1: 13 passed / 1 failed / 5 skipped / 5 at submission — only `thinking_priced` fails (0 usage rows; subagent rows flush at run end — koordinator re-bundle + usage row) | preflight: node runs main.ts, entry.txt 84 chars, 0 static-badge-host strings in repo; reproduces 97,8% (93/95 lines), revised PASS (trial-log from 2 messages) |
